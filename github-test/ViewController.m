@@ -17,10 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 <<<<<<< HEAD
+<<<<<<< HEAD
     //吴威
 =======
     //太
 >>>>>>> origin/泰锋
+=======
+    //太
+>>>>>>> 泰锋
     // Do any additional setup after loading the view, typically from a nib.
 }
 
