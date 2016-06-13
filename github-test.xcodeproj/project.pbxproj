@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990A4B3F1D0E8B12007EAB45 /* WWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A4B3E1D0E8B12007EAB45 /* WWViewController.m */; };
+		990A4B421D0E8EA1007EAB45 /* QWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A4B411D0E8EA1007EAB45 /* QWViewController.m */; };
 		99FE9C981D0E84AA00CDF650 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FE9C971D0E84AA00CDF650 /* main.m */; };
 		99FE9C9B1D0E84AA00CDF650 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FE9C9A1D0E84AA00CDF650 /* AppDelegate.m */; };
 		99FE9C9E1D0E84AA00CDF650 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FE9C9D1D0E84AA00CDF650 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		990A4B3D1D0E8B12007EAB45 /* WWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWViewController.h; sourceTree = "<group>"; };
+		990A4B3E1D0E8B12007EAB45 /* WWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWViewController.m; sourceTree = "<group>"; };
+		990A4B401D0E8EA1007EAB45 /* QWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWViewController.h; sourceTree = "<group>"; };
+		990A4B411D0E8EA1007EAB45 /* QWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWViewController.m; sourceTree = "<group>"; };
 		99FE9C931D0E84AA00CDF650 /* github-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "github-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99FE9C971D0E84AA00CDF650 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		99FE9C991D0E84AA00CDF650 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				99FE9C9A1D0E84AA00CDF650 /* AppDelegate.m */,
 				99FE9C9C1D0E84AA00CDF650 /* ViewController.h */,
 				99FE9C9D1D0E84AA00CDF650 /* ViewController.m */,
+				990A4B3D1D0E8B12007EAB45 /* WWViewController.h */,
+				990A4B3E1D0E8B12007EAB45 /* WWViewController.m */,
+				990A4B401D0E8EA1007EAB45 /* QWViewController.h */,
+				990A4B411D0E8EA1007EAB45 /* QWViewController.m */,
 				99FE9C9F1D0E84AA00CDF650 /* Main.storyboard */,
 				99FE9CA21D0E84AA00CDF650 /* Assets.xcassets */,
 				99FE9CA41D0E84AA00CDF650 /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FE9C9E1D0E84AA00CDF650 /* ViewController.m in Sources */,
+				990A4B421D0E8EA1007EAB45 /* QWViewController.m in Sources */,
 				99FE9C9B1D0E84AA00CDF650 /* AppDelegate.m in Sources */,
+				990A4B3F1D0E8B12007EAB45 /* WWViewController.m in Sources */,
 				99FE9C981D0E84AA00CDF650 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +508,7 @@
 				99FE9CC21D0E84AA00CDF650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99FE9CC31D0E84AA00CDF650 /* Build configuration list for PBXNativeTarget "github-testTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				99FE9CC51D0E84AA00CDF650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99FE9CC61D0E84AA00CDF650 /* Build configuration list for PBXNativeTarget "github-testUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				99FE9CC81D0E84AA00CDF650 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
